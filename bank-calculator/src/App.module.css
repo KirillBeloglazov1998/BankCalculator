@@ -1,0 +1,31 @@
+.mainPage {
+    display: grid;
+    grid-template-areas: 
+    'n r'
+    'c r'
+    ;
+
+    grid-template-columns: 430px 370px;
+    grid-template-rows: 50px auto;
+
+    background-color: #ededed;
+    width: 800px;
+    height: 700px;
+    margin:0 auto;
+    margin-top: 100px;
+}
+
+.Navigation {
+    grid-area: n;
+    font-size: 20px;
+}
+
+.Calculators {
+    grid-area: c;
+    margin-top: 30px;
+}
+
+.Result {
+    grid-area: r;
+    margin-top: 30px;
+}
